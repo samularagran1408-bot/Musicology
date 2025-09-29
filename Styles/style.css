@@ -1,0 +1,252 @@
+body {
+    background-color: rgb(48, 46, 46);
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(48, 46, 46);
+}
+
+
+.logo img {
+    width: 82px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+
+.search img {
+    width: 35px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.people {
+    background-image: url(../images/background.png);
+    height: 84vh;
+    background-size: cover;
+    background-position: center;
+    padding: 7rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+.info h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 60px;   
+}
+
+.info p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    width: 25%;
+    color: #fff;
+    font-size: 20px;
+    margin-top: -20px;  
+}
+
+.info a {
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(255, 94, 0);
+    border-radius: 1px;
+}
+
+.info a h2 {
+    margin-top: 7px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.info a:hover {
+    background-color: rgb(192, 89, 29);
+}
+
+.origin {
+    background-color: rgb(255, 94, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.origin h2 {
+    color: #fff;
+    font-size: 60px;
+    font-family:'Oswald', sans-serif;
+}
+
+.origin p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    text-align: center;
+}
+
+.positions {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.position:hover {
+  transform: translateY(-8px);/*Altura a la que se desplaza cuando el contenedor es seleccionado*/
+}
+
+.position img {
+    width: 70%;
+    height: 70%;
+    margin-bottom: -20px;
+}
+
+.erda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(48, 46, 46);
+    width: 70%;
+    text-align: center;
+}
+
+.erda h3 {
+    font-size: 30px;
+    color: #fff;
+    font-family:'Oswald', sans-serif;
+}
+
+.erda p {
+    font-size: 13px;
+    color: #fff;
+    margin-top: -20px;
+    width: 65%;
+}
+
+.medallas {
+    background-color: rgb(48, 46, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem;
+}
+
+.medallas h2 {
+    font-family:'Oswald', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 60px;
+    margin-top: -45px;
+}
+
+.medallas p {
+    font-weight: lighter;
+    width: 55%;
+    color: #fff;
+    font-size: 20px;
+    margin-top: -20px;  
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.medallas-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.medalla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: rgb(255, 94, 0);
+    width: 30%;
+    height: 500px;
+    margin-top: 30px;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+.medalla:hover {
+    transform: translateY(-8px);/*Altura a la que se desplaza cuando el contenedor es seleccionado*/
+}
+
+.medalla img {
+    width: 30%;
+    height: 30%;
+    margin-bottom: -20px;
+}
+
+.medalla p {
+    font-size: 15px;
+    color: #fff;
+    margin-top: -20px;
+}
+
+.medalla h3 {
+    font-family:'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #fff;
+}
+
+.button-medalla {
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(48, 46, 46);
+    border-radius: 1px;
+}
+
+.button-medalla h3 {
+    margin-top: 7px;
+    font-size: 25px;
+    font-family:'Oswald', sans-serif;
+    font-weight: lighter;
+}
+
+.button-medalla:hover {
+    background-color: rgb(80, 76, 76);
+}
+
+.footer {
+    background-color: rgb(255, 94, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
