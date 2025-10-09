@@ -1,3 +1,7 @@
+@charset "utf-8";
+@import url("../resources/Open_Sans/OpenSans-Regular.ttf");
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 body {
     background-color: rgb(48, 46, 46);
     width: 100%;
@@ -249,4 +253,459 @@ body {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width:921px) and (max-width:1279px){
+	.header{
+		background-color: blue;
+	}
+
+    .people{
+        background-size:cover;
+        background-position:center;
+        height: 50vh;
+    }
+
+    .info {
+        margin-top: 15px;
+    }
+
+    .info p{
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .info h2{
+        font-size: 60px;
+    }
+
+    .info a{
+        width: 190px;
+        height: 40px;
+    }
+
+    .info a h2{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .origin{
+        height: 120vh;
+    }
+
+    .origin h2{
+        font-size: 50px;
+    }
+
+    .origin p{
+        font-size: 22px;
+        margin-top: 2px;
+    }
+
+    .position img{
+        width: 70%;
+        height: 66%;
+    }
+
+    .erda{
+        width: 70%;
+        height: 80%;
+        margin-top: 19px;
+    }
+
+    .erda h3 {
+        font-size: 25px;
+    }
+
+    .erda p {
+        font-size: 16px;
+    }
+
+    .medallas-container{
+        gap: 80px;
+    }
+    .medallas h2{
+        font-size: 60px;
+    }
+
+    .medallas p{
+        font-size: 24px;
+        margin-top: 2px;
+    }
+
+    .medalla{
+        width: 50%;
+        height: 430px;
+        margin-top: 10px;
+        gap: 10px;
+    }
+    .medalla img{
+        width: 40%;
+        height: 20%;
+    }
+
+    .medalla p{
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    .medalla h3{
+        font-size: 25px;
+    }
+
+    .button-medalla{
+        width: 140px;
+        height: 37px;
+    }
+
+    .button-medalla h3{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .footer p{
+        font-size: 17px;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:920px){
+	.header{
+		background-color: crimson;
+	}
+
+    .people{
+        background-size:cover;
+        background-position:center;
+        height: 50vh;
+    }
+
+    .info {
+        margin-top: 15px;
+    }
+
+    .info p{
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .info h2{
+        font-size: 50px;
+    }
+
+    .origin{
+        height: 110vh;
+    }
+
+    .origin h2{
+        font-size: 40px;
+    }
+
+    .origin p{
+        font-size: 15px;
+        margin-top: 2px;
+    }
+
+    .position img{
+        width: 70%;
+        height: 66%;
+    }
+
+    .erda{
+        width: 70%;
+        height: 80%;
+        margin-top: 19px;
+    }
+
+    .erda h3 {
+        font-size: 15px;
+    }
+
+    .erda p {
+        font-size: 11px;
+        width: 90%;
+    }
+
+    .medallas h2{
+        font-size: 40px;
+    }
+
+    .medallas p{
+        font-size: 15px;
+        margin-top: 2px;
+    }
+
+    .medallas-container{
+        gap: 65px;
+    }
+
+    .medalla{
+        width: 30%;
+        height: 320px;
+        margin-top: 10px;
+        gap: 10px;
+    }
+    .medalla img{
+        width: 30%;
+        height: 20%;
+    }
+
+    .medalla p{
+        font-size: 14px;
+        width: 90%;
+    }
+    
+    .medalla h3{
+        font-size: 17px;
+    }
+
+    .button-medalla{
+        width: 120px;
+        height: 30px;
+    }
+
+    .button-medalla h3{
+        font-size: 15px;
+        margin-top: 4px;
+    }
+
+    .footer p{
+        font-size: 13px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+	.header{
+        background-color: aqua;
+    }
+
+    .people{
+        background-size:cover;
+        background-position:center;
+        height: 40vh;
+    }
+
+    .info {
+        margin-top: 15px;
+    }
+
+    .info p{
+        width: 80%;
+        font-size: 13px;
+    }
+
+    .info h2{
+        font-size: 40px;
+    }
+
+    .info a{
+        width: 150px;
+        height: 25px;
+    }
+
+    .info a h2{
+        font-size: 10px;
+        margin-top: 7px;
+    }
+
+    .origin{
+        height: 80vh;
+    }
+
+    .origin h2{
+        font-size: 30px;
+    }
+
+    .origin p{
+        font-size: 13px;
+        margin-top: 2px;
+    }
+
+    .position img{
+        width: 70%;
+        height: 66%;
+    }
+
+    .erda{
+        width: 70%;
+        height: 80%;
+        margin-top: 19px;
+    }
+
+    .erda h3 {
+        font-size: 11px;
+    }
+
+    .erda p {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .medallas h2{
+        font-size: 30px;
+    }
+
+    .medallas p{
+        font-size: 13px;
+        margin-top: 2px;
+    }
+
+    .medallas-container{
+        gap: 40px;
+    }
+
+    .medalla{
+        width: 150px;
+        height: 260px;
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+    .medalla img{
+        width: 30%;
+        height: 20%;
+    }
+
+    .medalla p{
+        font-size: 10px;
+        width: 100%;
+    }
+    
+    .medalla h3{
+        font-size: 17px;
+    }
+
+    .button-medalla{
+        width: 80px;
+        height: 30px;
+    }
+
+    .button-medalla h3{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .footer p{
+        font-size: 11px;
+    }
+}
+
+@media (min-width:352px) and (max-width: 480px){
+	.header{
+        background-color:darkblue;
+    }
+
+    .people{
+        background-size:cover;
+        background-position:center;
+        height: 30vh;
+    }
+
+    .info {
+        margin-top: 13px;
+    }
+
+    .info p{
+        width: 99%;
+        font-size: 12px;
+    }
+
+    .info h2{
+        font-size: 30px;
+    }
+
+    .info a{
+        width: 150px;
+        height: 25px;
+    }
+
+    .info a h2{
+        font-size: 10px;
+        margin-top: 7px;
+    }
+
+    .origin{
+        height: 60vh;
+    }
+
+    .origin h2{
+        font-size: 30px;
+    }
+
+    .origin p{
+        font-size: 13px;
+        margin-top: 2px;
+        width: 90%;
+    }
+
+    .position img{
+        width: 70%;
+        height: 66%;
+    }
+
+    .erda{
+        width: 70%;
+        height: 55%;
+        margin-top: 19px;
+    }
+
+    .erda h3 {
+        font-size: 11px;
+    }
+
+    .erda p {
+        font-size: 8px;
+        width: 85%;
+    }
+
+    .medallas h2{
+        font-size: 30px;
+    }
+
+    .medallas p{
+        font-size: 10px;
+        margin-top: 2px;
+        width: 90%;
+    }
+
+    .medallas-container{
+        gap: 25px;
+    }
+
+    .medalla{
+        width: 100px;
+        height: 200px;
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+    .medalla img{
+        width: 30%;
+        height: 15%;
+    }
+
+    .medalla p{
+        font-size: 8px;
+        width: 90%;
+    }
+    
+    .medalla h3{
+        font-size: 13px;
+    }
+
+    .button-medalla{
+        width: 60px;
+        height: 20px;
+    }
+
+    .button-medalla h3{
+        font-size: 8px;
+        margin-top: 3px;
+    }
+
+    .footer p{
+        font-size: 11px;
+    }
 }
